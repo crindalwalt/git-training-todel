@@ -7,7 +7,7 @@ function App() {
     <>
     <Routes>
       <Route path='/aboutMohsan'element={<AboutMohsan/>}/>
-      <h1>mohsan</h1>
+      
     </Routes>
     </>
   )
