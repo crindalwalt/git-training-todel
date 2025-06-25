@@ -1,12 +1,11 @@
 import React from 'react'
 
-function Taha() {
+function Taha2() {
   return (
     <div>
-      <h1>taha</h1>
+      
     </div>
   )
 }
 
-export default Taha
-
+export default Taha2
