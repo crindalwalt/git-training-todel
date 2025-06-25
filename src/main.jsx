@@ -9,6 +9,8 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
     <Zain />
+    <saim/>
+    <saimmmm/>
     <App />
     </BrowserRouter>
   </StrictMode>,
