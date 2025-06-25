@@ -1,11 +1,12 @@
 import React from 'react'
 
-const saim = () => {
+function saim() {
   return (
     <div>
-      <h1>My name is saim</h1>
+      <h1>my name is saim</h1>
     </div>
   )
 }
 
 export default saim
+
