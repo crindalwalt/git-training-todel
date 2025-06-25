@@ -1,11 +1,13 @@
 import React from 'react'
 
-const Zain = () => {
+function Zain() {
   return (
     <div>
-      <h1>zainnn</h1>
+      <h1>Zain</h1>
     </div>
   )
 }
 
 export default Zain
+
+
