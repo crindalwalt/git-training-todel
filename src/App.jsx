@@ -1,8 +1,10 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Sidebar from "./Sidebar";
-import Dashboard from "./components/Dashboard";
+import Dashboard from "./Dshboard";
 import "./index.css";
+import AboutMohsan from "./AboutMohsan";
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       <main className="main-content">
         <Routes>
           <Route path="/" element={<Dashboard />} />
+          <Route path="/mohsan" element={<AboutMohsan />} />
         </Routes>
       </main>
     </div>
