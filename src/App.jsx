@@ -1,16 +1,20 @@
-import React from 'react'
-import { Routes,Route } from 'react-router-dom'
-import AboutMohsan from './AboutMohsan'
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Sidebar from "./components/Sidebar";
+import Dashboard from "./components/Dashboard";
+import "./index.css";
 
 function App() {
   return (
-    <>
-    <Routes>
-      <Route path='/aboutMohsan'element={<AboutMohsan/>}/>
-      
-    </Routes>
-    </>
-  )
+    <div className="container">
+      <Sidebar />
+      <main className="main-content">
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+        </Routes>
+      </main>
+    </div>
+  );
 }
 
-export default App
+export default App;
